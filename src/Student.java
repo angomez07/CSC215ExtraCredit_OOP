@@ -27,6 +27,12 @@ public class Student {
      */
     public int getUnits() {
         return 0;
+        // make var to keep track of units using for each
+        //inside increment var of total units
+        //return total units
+//        for(Course c : coursesList) {
+//        }
+
     }
 
     public Name getName() {

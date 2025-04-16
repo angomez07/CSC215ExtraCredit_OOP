@@ -22,7 +22,6 @@ public class Main {
         printStudent(stu2);
 
     }
-
     /**
      * 1 point for attempt. 3 points for correct implementation.
      * TODO: Modify this method so it displays their favorite language
@@ -34,7 +33,10 @@ public class Main {
         System.out.printf("Name: %s %s\n", name.firstName, name.lastName);
 
         /* Add code here. */
-
+        //figure out if this student is a CSSTUDENT
+        //if they are convert to CSSTUDENT
+        //then access their favorite programming language and then print it out
+        //"Favorite language: <lang>
         for (Course c : courses) {
             System.out.printf("%-10s Units: %2d\n", c.getCourseCode(), c.getUnits());
         }
